@@ -17,6 +17,7 @@ import PySimpleGUI as sg
 assert sys.version_info >= (3, 6)
 
 
+
 # set the theme for the main window
 sg.theme('LightBlue2')
 
@@ -201,7 +202,7 @@ def output(target, diff, results):
     print(f"\nThe closest results differ from {target} by {diff}. They are:\n")
     for calculation in results:
         print(f"{calculation.result} = {calculation.expr}")
-        sg.popup('Yes, it can be done:\n\n'+ calculation.expr+'\n\n Press OK for the next solution.')
+        sg.popup_ok_cancel('Yes, it can be done:\n\n'+ calculation.expr+'\n\n Press OK for the next solution.\n\n', no_titlebar =True, text_color='midnightblue', font='arial 18', background_color='#d3c7aa')
 
 
 if __name__ == "__main__":

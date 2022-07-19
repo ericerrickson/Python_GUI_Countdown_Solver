@@ -8,7 +8,7 @@ Python_GUI_Countdown_Solver is a graphical Python app that brute forces every po
     <th> <img src="MainWindow.jpg"
      alt="The application's main window" width="350" height="300" /></th>
     <th>   </th>
-    <th> <img src="SolvePopup.jpg"
+    <th> <img src="SolvePopup.JPG"
      alt="The application's solution window" width="350" height="300" /></th>
   </tr>
   </table>
